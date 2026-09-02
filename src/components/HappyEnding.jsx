@@ -91,8 +91,11 @@ export default function HappyEnding({ onRestart }) {
           transition={{ delay: 0.4 }}
           style={{ marginTop: '16px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px' }}
         >
-          <div className="sweet-title" style={{ fontSize: '2rem', color: '#ffb8c6' }}>
+          <div className="sweet-title" style={{ fontSize: '2rem', color: '#ffb8c6', marginBottom: '4px' }}>
             "We Made It. ❤️"
+          </div>
+          <div className="handwriting-note" style={{ fontSize: '1.8rem', color: '#ffd700', textShadow: '0 0 10px rgba(255, 215, 0, 0.4)' }}>
+            "Lo Lo Lo khupp jast pikachu 💕"
           </div>
           <button className="btn-secondary" onClick={onRestart}>
             Replay Story 🔄

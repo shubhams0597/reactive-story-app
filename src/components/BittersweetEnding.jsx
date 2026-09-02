@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
 export default function BittersweetEnding({ onChangeMind, onRestart }) {
-  const fullText = "You will have a good life with someone else maybe... and I will watch you happily growing in your life, and I will die knowing you were happy. 😊🤍";
+  const fullText = "You will have a good life with someone else maybe... and I will watch you happily growing in your life, and I will die knowing you were happy. 😊🤍\n\nLo Lo Lo khupp jast pikachu 💕";
   const [displayedText, setDisplayedText] = useState("");
 
   useEffect(() => {
